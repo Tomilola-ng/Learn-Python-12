@@ -6,14 +6,14 @@
       # The surrounding function will return a list of odd numbers.
 """
 
-def is_odd(num):
+def is_odd(num: int):
   # Using Modulus to check if the number is Odd
   if num % 2 == 1:
     return True
   return False
 
 
-def list_odd(func_is_odd, arg_list):
+def list_odd(func_is_odd, arg_list: []):
   odd_num_list = [] # List for Odd number
 
   for item in arg_list:
