@@ -26,4 +26,4 @@ def list_odd(func_is_odd, arg_list: []):
 my_list = [2,3,4,5,6,7,19,40,57,68] # Total of 5 Odd numbers, 10 Total numbers
 
 # Calling the function now
-list_odd(is_odd, my_list)
+print(list_odd(is_odd, my_list))
